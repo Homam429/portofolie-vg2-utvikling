@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt Meg - Homam 2ITA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="space"></div>
+        <h1>Kontakt Meg</h1>
+        <a href="index.html" class="btn">TILBAKE</a>
+    </header>
+
+    <main class="container">
+        <section class="kontakt-seksjon">
+            <h2>Send meg en melding</h2>
+            
+            <form class="kontakt-skjema">
+                <div class="skjema-gruppe">
+                    <label for="navn">Navn:</label>
+                    <input type="text" id="navn" placeholder="Ditt navn" required>
+                </div>
+
+                <div class="skjema-gruppe">
+                    <label for="epost">E-post:</label>
+                    <input type="email" id="epost" placeholder="Din e-post" required>
+                </div>
+
+                <div class="skjema-gruppe">
+                    <label for="melding">Melding:</label>
+                    <textarea id="melding" rows="5" placeholder="Skriv din melding her" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-send">Send melding</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
